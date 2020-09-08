@@ -9,3 +9,5 @@ HTML,CSS,JS 기본문법 공부후, 찾아가면서
 ------------
 
 ### 1. 쿼리셀렉터이용, 브라우저 사이즈 변경할때마다 사이즈 출력하기
+
+[window-size.html](https://github.com/flykimjiwon/v-js-study/blob/master/window-size.html "window-size.html")
