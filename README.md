@@ -13,7 +13,7 @@ https://htmlpreview.github.io/
 
 [window-size.html](https://github.com/flykimjiwon/v-js-study/blob/master/window-size.html "window-size.html")
 
-[미리보기](http://https://htmlpreview.github.io/?https://github.com/flykimjiwon/v-js-study/blob/master/window-size.html "미리보기")
+[미리보기](https://htmlpreview.github.io/?https://github.com/flykimjiwon/v-js-study/blob/master/window-size.html "미리보기")
 
 ------------
 ### 2.쿼리셀레터 이벤트리스너 특정한 박스클릭, 해당위치 좌표출력
