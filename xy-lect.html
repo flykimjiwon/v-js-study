@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: blanchedalmond;
+        }
+        .normal{
+            margin:10px;
+            width: 100px;
+            height: 100px;
+            background-color: black;
+        }
+        .special{
+            margin:10px;
+            width: 100px;
+            height: 100px;
+            background-color:orange;
+        }
+    </style>
+</head>
+<body>
+    <div class="click"><h2>오렌지색 박스 클릭하면 좌표반환하기</h2></div>
+    <div class="normal"></div>
+    <div class="normal"></div>
+    <div class="normal"></div>
+    <div class="normal"></div>
+    <div class="normal"></div>
+    <div class="normal"></div>
+    <div class="normal"></div>
+    <div class="normal"></div>
+    <div class="normal"></div>
+    <div class="special"></div>
+    <div class="normal"></div>
+    <div class="normal"></div>
+
+    <script>
+        let special = document.querySelector('.special')
+        
+        special.addEventListener('click',(event)=>{
+           const rect = special.getBoundingClientRect();
+           console.log(rect);
+          // console.log(`client(눈에보이는화면): ${event.clientX}, ${event.clientY}`)
+          // console.log(`page(전체피이지,스크롤포함): ${event.pageX},${event.pageY}`)
+           console.log(event.clientX,event.clientX)
+           console.log(event.pageX,event.pageY )
+
+           //event의 x,y좌표를 가져오는거기때문에 위의 rect는 없어도 작동이된다. 참고로 함수의 (event생략가능)
+           
+        })
+    </script>
+    
+</body>
+</html>
