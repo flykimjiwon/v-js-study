@@ -11,14 +11,14 @@ https://htmlpreview.github.io/
 
 ### 1. 쿼리셀렉터이용, 브라우저 사이즈 변경할때마다 사이즈 출력하기
 
-[window-size.html](https://github.com/flykimjiwon/v-js-study/blob/master/window-size.html "window-size.html")
 
+[미리보기](http://https://htmlpreview.github.io/?https://github.com/flykimjiwon/v-js-study/blob/master/window-size.html "미리보기")
 
 ------------
 ### 2.쿼리셀레터 이벤트리스너 특정한 박스클릭, 해당위치 좌표출력
 
-[xy-lect.html](https://github.com/flykimjiwon/v-js-study/blob/master/xy-lect.html "xy-lect.html")
 
+[미리보기](https://htmlpreview.github.io/?https://github.com/flykimjiwon/v-js-study/blob/master/xy-lect.html "미리보기")
 함수안에 이벤트 리스너는 항상 event를 반환한다. 그래서 event.~~
 
 식으로 x,y좌표를 가져올 수 있음, getBoundingClientRect 요소의 절대좌표 구하기
