@@ -5,12 +5,14 @@ HTML,CSS,JS 기본문법 공부후, 찾아가면서
 
 할 수 있을정도 공부한후 바닐라 JS공부를 한후 기록하기위해 만든 레포지토리
 
-
+https://htmlpreview.github.io/
+미리보기
 ------------
 
 ### 1. 쿼리셀렉터이용, 브라우저 사이즈 변경할때마다 사이즈 출력하기
 
 [window-size.html](https://github.com/flykimjiwon/v-js-study/blob/master/window-size.html "window-size.html")
+
 
 ------------
 ### 2.쿼리셀레터 이벤트리스너 특정한 박스클릭, 해당위치 좌표출력
