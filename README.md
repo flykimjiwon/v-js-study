@@ -31,3 +31,35 @@ https://developer.mozilla.org/en-US/docs/Web/API/Element/getBoundingClientRect
 ![](https://mdn.mozillademos.org/files/17155/element-box-diagram.png)
 
 
+
+------------
+
+
+
+## WIN 스크롤 API 3개가있음
+
+[winscroll.html](https://github.com/flykimjiwon/v-js-study/blob/master/winscroll.html "winscroll.html")
+[미리보기](https://htmlpreview.github.io/?https://github.com/flykimjiwon/v-js-study/blob/master/winscroll.html "미리보기")
+
+1)원하는만큼 스크롤하기
+
+https://developer.mozilla.org/en-US/docs/Web/API/Window/scrollBy
+
+2)해당 위치로 스크롤하기
+
+https://developer.mozilla.org/ko/docs/Web/API/Window/scrollTo
+
+3)해당 요소로 스크롤하기
+
+https://developer.mozilla.org/ko/docs/Web/API/Element/scrollIntoView
+
+구글에 javascript scroll 로 검색하거나, scroll into 이런식으로 검색하면됨
+
+끝지점으로, 부드럽게 스크롤 등등 옵션지정도 전부 가능
+
+해당 기능구현도 역시 Queryselector 및 addEventlistener 사용은 기본
+
+
+
+
+
