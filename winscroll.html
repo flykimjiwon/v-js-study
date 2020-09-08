@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: blanchedalmond;
+        }
+        .normal{
+            margin:10px;
+            width: 100px;
+            height: 100px;
+            background-color: black;
+        }
+        .special{
+            margin:10px;
+            width: 100px;
+            height: 100px;
+            background-color:orange;
+        }
+        aside{
+            position:fixed;
+            top:20px;
+            right:20px;
+        }
+    </style>
+</head>
+<body>
+    <!-- scroll by 100px(y) scroll to 100px(y) scroll into special -->
+    <aside><button class="scrollby">scroll by 100px(y) 100만큼이동</button>
+        <button class="scrollto">scroll to 100px(y) 100으로이동</button>
+        <button class="scrollspecial">scroll into special 특별한상자로이동</button>
+        <h2>클릭하는 좌표로 이동하게하기</h2></aside>
+        <div class="normal"></div>
+        <div class="normal"></div>
+        <div class="normal"></div>
+        <div class="normal"></div>
+    <div class="normal"></div>
+    <div class="normal"></div>
+    <div class="normal"></div>
+    <div class="normal"></div>
+    <div class="normal"></div>
+    <div class="normal"></div>
+    <div class="normal"></div>
+    <div class="normal"></div>
+    <div class="normal"></div>
+    <div class="special"></div>
+    <div class="normal"></div>
+    <div class="normal"></div>
+    <div class="normal"></div>
+    <div class="normal"></div>
+    <div class="normal"></div>
+    <div class="normal"></div>
+
+    <script>
+        let special = document.querySelector('.special')
+        let scrollby = document.querySelector('.scrollby')
+        let scrollto = document.querySelector('.scrollto')
+        let scrollspecial = document.querySelector('.scrollspecial')
+
+        scrollby.addEventListener('click',(event)=>{
+            window.scrollBy(0, 100);
+        })
+     
+        scrollto.addEventListener('click',(event)=>{
+            window.scrollTo( 0, 100 );
+        })
+        scrollspecial.addEventListener('click',(event)=>{
+            special.scrollIntoView({behavior: "smooth", block: "end"});
+        })
+        
+        
+        special.addEventListener('click',(event)=>{
+           const rect = special.getBoundingClientRect();
+           console.log(rect);
+           console.log(event.clientX,event.clientX)
+           console.log(event.pageX,event.pageY )
+          
+        
+           
+           
+        })
+    </script>
+    
+</body>
+</html>
