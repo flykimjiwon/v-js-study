@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .tag{
+            display: inline-block;
+            background-color:grey;
+            padding: 16px;
+            margin-top:16px;
+            font-size:48px;
+
+        }
+    </style>
+</head>
+<body>
+    <h2>스크린,아웃터,이너 사이즈를 표시해보자</h2>
+    <div class="tag">Window Size</div>
+
+    <script>
+        let tag = document.querySelector('.tag'); // 쿼리셀렉터로 변수할당해서, 태그 클래스 사용하기
+        function updateTag(){
+            tag.innerHTML = `
+            window.screen: ${window.screen.width},${window.screen.height}</br>
+            window.outer: ${window.outerWidth},${window.outerHeight}</br>
+            window.inner: ${window.innerWidth},${window.innerHeight}</br>
+            documentElement.clientWidth: ${document.documentElement.clientWidth},${document.documentElement.clientHeight}</br>
+            `
+        }
+        // window.screen: 모니터의해상도, window.outer: 브라우저 사이즈 전체, window.inner:웹페이지 스크롤바까지, 웹페이지크기
+        window.addEventListener('resize',()=>{
+           updateTag();
+        }
+        )
+        updateTag();//처음화면창에서도 화면띄우기 위함
+
+       // let width = window.screen.width
+       // let height = window.screen.height
+
+    </script>
+    
+</body>
+</html>
