@@ -36,7 +36,7 @@ https://developer.mozilla.org/en-US/docs/Web/API/Element/getBoundingClientRect
 
 
 
-## WIN 스크롤 API 3개가있음
+### 3. WIN 스크롤 API 3개가있음
 
 [winscroll.html](https://github.com/flykimjiwon/v-js-study/blob/master/winscroll.html "winscroll.html")
 [미리보기](https://htmlpreview.github.io/?https://github.com/flykimjiwon/v-js-study/blob/master/winscroll.html "미리보기")
