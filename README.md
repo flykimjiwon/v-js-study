@@ -59,6 +59,7 @@ https://developer.mozilla.org/ko/docs/Web/API/Element/scrollIntoView
 
 해당 기능구현도 역시 Queryselector 및 addEventlistener 사용은 기본
 
+------------
 
 ### 4. 이미지랑,태그요소 마우스커서 이동하면 같이 움직이게만들기
 
@@ -79,5 +80,38 @@ https://developer.mozilla.org/en-US/docs/Web/API/Element/mousemove_event
 5.다만 감탄한 아이디어는 event.clientX,Y 좌표를 토대로 각 변수안의 
 
 style.내부 요소의 위치를 바꿀 수 있다는것 마지막에 innerHTML내용 바꾸기까지
+
+
+------------
+
+
+
+### 5.특정 이미지로(요소) 화면 이동하게 만들기
+
+[findelement.html](https://github.com/flykimjiwon/v-js-study/blob/master/findelement.html "findelement.html")
+[미리보기](https://htmlpreview.github.io/?https://github.com/flykimjiwon/v-js-study/blob/master/findelement.html "미리보기")
+
+1.바디태그 전체 중앙 정렬하기
+
+https://developer.mozilla.org/ko/docs/Web/CSS/align-content
+
+align-text:center 사용
+
+2.이미지태그 블록형태로바꾸기, 마진 auto해줘야 내려가며 적용
+
+3.마우스커서 포인터 바꾸기적용,그리고 버튼은 그냥 소스코드따옴
+
+https://www.w3schools.com/css/css3_buttons.asp
+
+4.하나인 녀석은 클래스보다 ID값을 주는게좋다.
+
+5.scrollItoView 다시사용
+
+https://developer.mozilla.org/ko/docs/Web/API/Element/scrollIntoView
+
+
+------------
+
+
 
 
