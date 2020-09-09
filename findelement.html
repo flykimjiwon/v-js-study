@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>도라에몽을 찾아라</title>
+    <style>
+      body {
+        text-align: center;
+      }
+      img {
+        display: block;
+        margin: auto;
+        width: 250px;
+      }
+      /* .bread {
+        width: 250px;
+        display: block;
+        margin: auto;
+      }
+      .dora {
+        width: 250px;
+        display: block;
+        margin: auto;
+      } */
+      .find {
+        background-color: #008cba; /* Green */
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        cursor: pointer;
+      }
+    </style>
+  </head>
+  <body>
+    <button class="find">도라에몽을 찾아라</button>
+    <img class="bread" src="./img/danpot.jpeg" alt="bread" />
+    <img class="bread" src="./img/danpot.jpeg" alt="bread" />
+    <img class="bread" src="./img/danpot.jpeg" alt="bread" />
+    <img class="bread" src="./img/danpot.jpeg" alt="bread" />
+    <img class="bread" src="./img/danpot.jpeg" alt="bread" />
+    <img class="bread" src="./img/danpot.jpeg" alt="bread" />
+    <img class="bread" src="./img/danpot.jpeg" alt="bread" />
+    <img class="bread" src="./img/danpot.jpeg" alt="bread" />
+    <img class="dora" src="./img/dora.png" alt="dora" />
+    <img class="bread" src="./img/danpot.jpeg" alt="bread" />
+    <img class="bread" src="./img/danpot.jpeg" alt="bread" />
+    <img class="bread" src="./img/danpot.jpeg" alt="bread" />
+    <img class="bread" src="./img/danpot.jpeg" alt="bread" />
+    <img class="bread" src="./img/danpot.jpeg" alt="bread" />
+  </body>
+
+  <script>
+    const find = document.querySelector(".find");
+    const dora = document.querySelector(".dora");
+    // 얘는 하나니까 id # 아이디 선택자로 써주는게 더 좋다. id ="dora"
+    find.addEventListener("click", (event) => {
+      // console.log("zmfflr");
+      // dora.scrollIntoView();
+      dora.scrollIntoView({
+        behavior: "smooth",
+        block: "end",
+        inline: "nearest",
+      });
+    });
+  </script>
+</html>
