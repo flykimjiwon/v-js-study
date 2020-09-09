@@ -60,6 +60,24 @@ https://developer.mozilla.org/ko/docs/Web/API/Element/scrollIntoView
 해당 기능구현도 역시 Queryselector 및 addEventlistener 사용은 기본
 
 
+### 4. 이미지랑,태그요소 마우스커서 이동하면 같이 움직이게만들기
 
+[mousemove.html](https://github.com/flykimjiwon/v-js-study/blob/master/mousemove.html "mousemove.html")
+
+미리보기 실행이 불가능 
+
+1.div 태그 적절히수정해서 css로 라인만들기
+
+2.이미지요소 까지 결합하기
+
+3.좌표이동하면 라인,이미지 이동하면서 좌표출력
+
+4.당연한거지만 쿼리셀렉터이용, 이벤트리스너이용 마우스 무브 사용
+
+https://developer.mozilla.org/en-US/docs/Web/API/Element/mousemove_event
+
+5.다만 감탄한 아이디어는 event.clientX,Y 좌표를 토대로 각 변수안의 
+
+style.내부 요소의 위치를 바꿀 수 있다는것 마지막에 innerHTML내용 바꾸기까지
 
 
