@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Coordinates</title>
+    <script src="main.js" defer></script>
+    <link rel="stylesheet" href="style.css" />
+    <style>
+      body {
+        background-color: black;
+      }
+      .line {
+        position: absolute;
+        background-color: white;
+      }
+      .horizon {
+        width: 100%;
+        height: 1px;
+        top: 50%;
+      }
+      .vertical {
+        height: 100%;
+        width: 1px;
+        left: 50%;
+      }
+      .target {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        /* 요소의 절반만큼씩 이동하는 기술 */
+      }
+      .tag {
+        color: white;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(50%, 50%);
+        font-size: 40px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="line horizon"></div>
+    <div class="line vertical"></div>
+    <img class="target" src="./img/target.png" alt="target" />
+    <span class="tag">포인터 위치</span>
+  </body>
+
+  <script>
+    const horizon = document.querySelector(".horizon");
+    const vertical = document.querySelector(".vertical");
+    const target = document.querySelector(".target");
+    const tag = document.querySelector(".tag");
+
+    document.addEventListener("mousemove", (event) => {
+      const x = event.clientX;
+      const y = event.clientY;
+      // console.log(`${event.clientX},${event.clientY}`);
+      vertical.style.left = `${x}px`;
+      horizon.style.top = `${y}px`;
+      target.style.left = `${x}px`;
+      target.style.top = `${y}px`;
+      tag.style.left = `${x}px`;
+      tag.style.top = `${y}px`;
+      tag.innerHTML = `${x}px, ${y}px`;
+      // 이건 상당한 아이디어! 라고 생각한다.
+    });
+  </script>
+</html>
