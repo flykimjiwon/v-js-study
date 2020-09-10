@@ -112,6 +112,18 @@ https://developer.mozilla.org/ko/docs/Web/API/Element/scrollIntoView
 
 ------------
 
+### 6.DOM 및 BOM,javascript
+
+쉽게말하면 dom은 document object model 인데 html이 노드형태로 돔트리로 구성되있는
+
+모델이라고 생각하면된다. 일단 상위에 윈도우가있고 (WINDOW) -> 그아래로
+
+dom,bom,javascript가 존재한다.
+
+![](https://media.vlpt.us/images/denmark-choco/post/20350c06-ee47-451a-a4ed-3ec3a0b963e2/dom.png)
+
+https://ko.javascript.info/browser-environment
+
 
 
 
