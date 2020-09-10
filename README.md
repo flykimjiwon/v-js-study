@@ -5,6 +5,10 @@ HTML,CSS,JS 기본문법 공부후, 찾아가면서
 
 할 수 있을정도 공부한후 바닐라 JS공부를 한후 기록하기위해 만든 레포지토리
 
+참고할만한 사이트
+
+1.MDN 2.https://ko.javascript.info/
+
 https://htmlpreview.github.io/
 미리보기
 ------------
