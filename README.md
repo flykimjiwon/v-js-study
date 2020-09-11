@@ -11,6 +11,10 @@ HTML,CSS,JS 기본문법 공부후, 찾아가면서
 
 https://htmlpreview.github.io/
 미리보기
+
+https://raw.githack.com/
+미리보기(좀더정확함)
+
 ------------
 
 ### 1. 쿼리셀렉터이용, 브라우저 사이즈 변경할때마다 사이즈 출력하기
@@ -68,8 +72,8 @@ https://developer.mozilla.org/ko/docs/Web/API/Element/scrollIntoView
 ### 4. 이미지랑,태그요소 마우스커서 이동하면 같이 움직이게만들기
 
 [mousemove.html](https://github.com/flykimjiwon/v-js-study/blob/master/mousemove.html "mousemove.html")
+[미리보기](https://rawcdn.githack.com/flykimjiwon/v-js-study/ec1b75c93066199e54830606c7b088548daeca15/mousemove.html "미리보기")
 
-미리보기 실행이 불가능 
 
 1.div 태그 적절히수정해서 css로 라인만들기
 
@@ -129,5 +133,17 @@ dom,bom,javascript가 존재한다.
 https://ko.javascript.info/browser-environment
 
 
+------------
 
+### 7.성능개선해서 mousemoveUpgarde 만들기
 
+css나 자바스크립트 애니메이션이나 등등... Layout,Paint,Composite이해해서
+
+좀더 성능개선하기, 기존의 top,left등을 옮기는것보다 transform을 사용하는것이
+
+성능이좀더 개선됨
+
+[mousemoveUpgrade.html](https://github.com/flykimjiwon/v-js-study/blob/master/mousemoveUpgrade.html "mousemoveUpgrade.html")
+[미리보기](https://rawcdn.githack.com/flykimjiwon/v-js-study/ec1b75c93066199e54830606c7b088548daeca15/mousemoveUpgrade.html "미리보기")
+
+------------
