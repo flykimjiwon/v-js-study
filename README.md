@@ -9,9 +9,6 @@ HTML,CSS,JS 기본문법 공부후, 찾아가면서
 
 1.MDN 2.https://ko.javascript.info/
 
-https://htmlpreview.github.io/
-미리보기
-
 https://raw.githack.com/
 미리보기(좀더정확함)
 
