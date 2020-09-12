@@ -144,3 +144,37 @@ css나 자바스크립트 애니메이션이나 등등... Layout,Paint,Composite
 [미리보기](https://rawcdn.githack.com/flykimjiwon/v-js-study/ec1b75c93066199e54830606c7b088548daeca15/mousemoveUpgrade.html "미리보기")
 
 ------------
+
+
+### 8.DOM조작하기 queryselector vs getelementbyId
+
+[domcode.html](https://github.com/flykimjiwon/v-js-study/blob/master/dom%20code/dom.html "domcode.html")
+[미리보기](https://rawcdn.githack.com/flykimjiwon/v-js-study/8f85dec6f6219baac1961a8ff4c2d90406ed6c8d/dom%20code/dom.html "미리보기")
+
+document.을 사용해서
+
+document.querySelector 태그,아이디 등 한번에 찾아 작동시킬 수 있음
+
+document.createElement->html이 아니라 js이용해서 요소생성가능
+
+그리고 만든 요소로 setAttribute등으로 클래스도 할당가능
+
+만든 요소에다가 textContent이용 내용도 넣어줄 수 있다.
+
+그외 appendChild나, insertBefore등 이용해서 순서 정해서 추가가능
+
+옛날에는 getelementbyId 썻는데 지금은 쿼리셀렉터로 전부 가능하다.
+
+이외 removeChild(요소) 도있다.
+
+ps. innerHTML 사용해서 html에 있는걸 전부 자바스크립트에 끌고와서 작성도 가능
+
+```javascript
+section.innerHTMl   = `
+<img src="img/avatar.jpg" alt="avatar" />
+      <h1 id="brand">flykimjiwon</h1>
+      <h3>test page</h3>
+`
+```
+
+------------
