@@ -178,3 +178,20 @@ section.innerHTMl   = `
 ```
 
 ------------
+
+
+### 9.DOM 실전, 쇼핑몰 목록앱, TO do list앱 만들기
+
+1.먼저 마크업, 스타일링기본으로 먼저하구
+
+2.필요한, 유용한 사이트
+
+1)https://fontawesome.com/ ->아이콘같은거 있는사이트
+
+2)https://www.cssmatic.com/box-shadow ->그림자 만드는 사이트
+
+3)https://cssgradient.io/ ->css 그라데이션 만들어줌
+
+4)참고한 border-radius문법 https://developer.mozilla.org/ko/docs/Web/CSS/border-radius
+
+##### 여기까지일단 html,css 기본 마크업,뼈대만작성, 이후 동적으로 만들어주기
