@@ -1,0 +1,106 @@
+*{
+    box-sizing: border-box;
+}
+
+ul{
+    padding: 0;
+}
+
+button{
+    outline: none;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+body{
+    background-color: aliceblue;
+    text-align: center;
+    
+}
+
+.list{
+    width: 400px;
+    margin: auto;
+    background-color: white;
+    border-radius: 20px;
+    -webkit-box-shadow: 4px 10px 31px 5px rgba(0,0,0,0.75);
+-moz-box-shadow: 4px 10px 31px 5px rgba(0,0,0,0.75);
+box-shadow: 4px 10px 31px 5px rgba(0,0,0,0.75);
+}
+ 
+.header{
+    height: 48px;
+    padding: 8px;
+    font-size:24px;
+    background: rgb(177,147,200);
+background: linear-gradient(90deg, rgba(177,147,200,1) 0%, rgba(134,211,251,1) 45%, rgba(104,210,232,1) 100%);
+border-radius: 20px 20px 0 0 ;
+color: white;
+}
+
+.items{
+    height: 500px;
+    overflow-y: auto;
+}
+
+.item{
+    display: flex;
+    justify-content: space-between;
+    /* 목록이랑 아이컨떨구기 */
+    padding: 8px 32px;
+}
+
+
+.item_delete{
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.item_delete{
+    transition: all 300ms ease-in;
+}
+
+.item_delete:hover{
+color:red;
+transform: scale(1.1);
+}
+
+.item_divider{
+    width: 90%;
+    height: 1px;
+    background-color: lightgrey;
+    margin: auto;
+}
+
+.footer{
+    
+    background: rgb(177,147,200);
+background: linear-gradient(90deg, rgba(177,147,200,1) 0%, rgba(134,211,251,1) 45%, rgba(104,210,232,1) 100%);
+border-radius: 0 0 20px 20px ;
+color: white;
+}
+
+.footer_input{
+    width: 100%;
+    height: 32px;
+    border: none;
+    outline: none;
+    font-size: 24px;
+    padding: 0 16px;
+    background-color: whitesmoke;
+}
+
+.footer_button{
+    width: 48px;
+    height: 48px;
+    font-size: 24px;
+    background-color: white;
+    border-radius: 50%;
+    transition: transform 300ms ease-in;
+
+}
+
+.footer_button:hover{
+    transform: scale(1.1);
+}
