@@ -182,6 +182,9 @@ section.innerHTMl   = `
 
 ### 9.DOM 실전, 쇼핑몰 목록앱, TO do list앱 만들기
 
+shoplist/index.html
+[완성본 미리보기](https://rawcdn.githack.com/flykimjiwon/v-js-study/084279452f7387dc5788337e0212b14ceb998906/shoplist/index.html "완성본 미리보기")
+
 1.먼저 마크업, 스타일링기본으로 먼저하구
 
 2.필요한, 유용한 사이트
