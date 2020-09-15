@@ -198,3 +198,17 @@ shoplist/index.html
 4)참고한 border-radius문법 https://developer.mozilla.org/ko/docs/Web/CSS/border-radius
 
 ##### 여기까지일단 html,css 기본 마크업,뼈대만작성, 이후 동적으로 만들어주기
+
+js파일에서 한것
+
+1)일단 목록,입력받을것,버튼 변수로 할당함
+
+2)버튼클릭하거나 엔터누르면 함수 불러오게만듬
+->addEventListener사용
+
+3)텍스트받아오기 -> 아이템새로만들기 -> 컨테이너안에 새로 아이템추가 -> 추가되는곳으로 이동,스크롤링->입력,인풋값 초기화하고 포커싱하게 설계
+
+4)이외 사용한것, appendChild,createElement,setAttribute등....
+이전에는 배열로 Todolist만들었었는데 오늘 신기했다.
+
+
