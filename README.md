@@ -211,4 +211,18 @@ js파일에서 한것
 4)이외 사용한것, appendChild,createElement,setAttribute등....
 이전에는 배열로 Todolist만들었었는데 오늘 신기했다.
 
+### 10. 당근고르기게임, 벌레피하기!
 
+[carrot/index.html](https://rawcdn.githack.com/flykimjiwon/v-js-study/5ac771eb82facace322a90197aa1e07a18f9bd83/carrot/index.html "carrot/index.html") [미리보기](https://rawcdn.githack.com/flykimjiwon/v-js-study/5ac771eb82facace322a90197aa1e07a18f9bd83/carrot/index.html "미리보기")
+
+전체적인 자바스크립트 동적인 사용법을 알게되었음
+
+class list 사용법 특히 신기했고 use strict라는걸 알게됨 [참고](https://blog.naver.com/on21life/221654555798 "참고")
+
+setInterval,clearInterval  같은 API사용법도 신기했고 무엇보다 구글에서
+
+timer between 2 이런식으로 검색해서 최대 최소값넣어서 검색해서 바로 만들어진거
+
+사용하는것도 신기했음, 게임하나 만들어보니까 동기부여도되고 뿌듯하기도하면서 공부하고
+
+싶은마음이 더커짐
